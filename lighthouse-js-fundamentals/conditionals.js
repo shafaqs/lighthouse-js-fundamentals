@@ -39,3 +39,16 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+
+
+const whichSchool = function(age)
+for (i = 13; i < 18; i++) {
+  expect(whichSchool(i)).to.be.equal("Secondary School");
+}
+for (i = 19; i < 100; i++) {
+  expect(whichSchool(i)).to.be.equal("Lighthouse Labs");
+}
+for (i < 13) {
+  expect(whichSchool(i)).to.be.equal("Elementary School");
+}
